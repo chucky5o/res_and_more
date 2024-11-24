@@ -3,137 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dexter Smith Résumé</title>
+    <title>Dexter Smith - Professional Résumé</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
-            background: #f4f4f9;
+            background-color: #f4f4f9;
             color: #333;
         }
-        header {
-            background: #333;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        header p {
-            margin: 5px 0;
-        }
-        section {
-            margin: 20px;
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
             padding: 20px;
             background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
-        h2 {
-            color: #333;
-            border-bottom: 2px solid #007BFF;
+        h1, h2, h3 {
+            color: #0078d4;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .contact-info {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .contact-info a {
+            color: #0078d4;
+            text-decoration: none;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #0078d4;
             padding-bottom: 5px;
-            margin-bottom: 15px;
         }
         ul {
-            list-style-type: disc;
             padding-left: 20px;
         }
         li {
             margin-bottom: 10px;
         }
-        a {
-            color: #007BFF;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #777;
         }
     </style>
 </head>
 <body>
-
-<header>
-    <h1>Dexter Smith</h1>
-    <p>Montclair, NJ | <a href="mailto:dexter-smith@outlook.com">dexter-smith@outlook.com</a> | 646-937-0650</p>
-    <p><a href="https://www.linkedin.com/in/dexter-dex-smith-4418b2172/">LinkedIn Profile</a></p>
-</header>
-
-<section>
-    <h2>Education</h2>
-    <p>Master of Science, Cybersecurity and Digital Forensics<br>
-    John Jay College for Criminal Justice – New York, NY</p>
-    <p>Bachelor of Science, Computer Science and Information Security<br>
-    John Jay College for Criminal Justice – New York, NY</p>
-</section>
-
-<section>
-    <h2>Career Highlights and Projects</h2>
-    <ul>
-        <li>Secure Cloud Transition Leadership: Directed the migration of critical assets to cloud platforms by implementing advanced security controls, including Data Loss Prevention (DLP), Cloud Security Posture Management (CSPM), and Conditional Access for authentication and authorization.</li>
-        <li>AI Security Innovations: Led initiatives to establish governance frameworks addressing AI risk management, aligning with NIST AI Risk Management Framework and regulatory standards. Investigated vulnerabilities such as AI hallucination, model poisoning, and adversarial attacks, creating mitigation strategies and response playbooks.</li>
-        <li>Infrastructure and Network Hardening: Designed and automated security testing for modernized infrastructure, ensuring adherence to best practices. Authored guidelines for securely deploying cloud and on-premises resources.</li>
-        <li>Application Security and DevSecOps: Orchestrated a culture shift towards DevSecOps, increasing cross-functional collaboration by 25%. Championed the uplift of application security programs, including threat modeling, secure CI/CD pipeline integrations, and automated security testing.</li>
-        <li>Penetration Testing and Offensive Security: Directed penetration testing teams to evaluate diverse attack surfaces, including APIs, networks, and applications. Provided actionable remediation strategies and enforced secure coding standards across engineering teams.</li>
-        <li>Security Frameworks and Industry Standards: Delivered operational excellence by embedding OWASP SAMM, CIS Critical Security Controls, PCI DSS, and custom frameworks into organizational processes. Oversaw implementation and adherence to policies governing cloud, application, and infrastructure security.</li>
-        <li>Cross-Functional Leadership: Managed diverse teams, including offensive security engineers and DevOps specialists. Fostered collaboration across IT and business units to align security measures with organizational goals and compliance requirements.</li>
-    </ul>
-</section>
-
-<section>
-    <h2>Technical Skillset</h2>
-    <p>Languages: Python, C++, JavaScript, PowerShell, Rust<br>
-    Security Frameworks: NIST, PCI DSS, CIS CRITICAL SECURITY CONTROLS<br>
-    Cloud Platforms: Azure, AWS, Google Cloud Platform<br>
-    Technology Environment: Containers(K8), Serverless Compute (AWS Lambda)<br>
-    Operating Systems: Windows, Linux, Mac OS X</p>
-</section>
-
-<section>
-    <h2>Additional Academics</h2>
-    <p>John Jay College for Criminal Justice – New York, NY – ADJUNCT PROFESSOR (08/22 - Present)</p>
-    <p>Teach and Develop advanced (Graduate) Cybersecurity and Digital Forensics courses including, Architecture of Operating Systems (FCM 710), Digital Forensics Application (FCM 753). Other courses include: Computer Networks, Programming Languages, and Computer Fundamentals (Undergraduate).</p>
-</section>
-
-<section>
-    <h2>Professional Experience</h2>
-    <p><strong>Nomura Securities</strong> (03/2023 – Present)<br>
-    Vice President - Global Software Security Engineering<br>
-    • Serve as principal security advisor for higher risk applications, reviewing application architecture, components, and infrastructure.<br>
-    • Lead the integration of security practices into the software development lifecycle (SDLC).<br>
-    • Implement and oversee tools such as SAST, DAST SCA, Cloud Posture Management, and Workload Protection.<br>
-    • Achieved a 20% reduction in security vulnerabilities identified in code reviews within the first year.</p>
-
-    <p><strong>Mitsubishi UFJ Financial Group</strong> (12/2021 – 03/2023)<br>
-    Vice President - Offensive Security Programs (DAST, Pen-Testing & Red Team)<br>
-    • Global VP of MUFG’s offensive security programs, including Penetration Testing, DAST, and Red Team.<br>
-    • Lead penetration testing engagements across a variety of systems, infrastructures, network, and application.<br>
-    • Principal subject matter expert for external vendor penetration testing, reviewing discovered weaknesses and validating against MUFG’s technology ecosystem.</p>
-
-    <p><strong>Madison Square Garden, ENT</strong> (07/2021 – 12/2021)<br>
-    Lead Security Solutions Engineer<br>
-    • Principal security engineer, responsible for developing baselines and configuring security policies IaC Security.<br>
-    • Serve as the main point of contact for development teams, assisting with vulnerability mediation and guidance.<br>
-    • Drive security maturity across the organization by adopting industry standard frameworks, such as OWASP SAMM.<br>
-    • Establish a robust collaboration with other security functions to ensure smooth project transitions into operations with effective governance.</p>
-
-    <p><strong>Outreach, Inc</strong> (12/2020 – 07/2021)<br>
-    Senior Security Program Manager<br>
-    • Responsible for promoting, designing, and evaluating application security in all phases of the SDLC.<br>
-    • Drive adoption of industry standard security framework for next-generation cloud software hosted on AWS.<br>
-    • Ensure applications are developed with best-in-class security mechanisms to meet compliance with ISO2700x, PCI, and HIPAA standards.<br>
-    • Manage large-scale, cross-organization programs, integrations, and migration efforts.</p>
-
-    <p><strong>Lincoln Center for the Performing Arts, Inc</strong> (09/2013 – 12/2020)<br>
-    Director - Information Security Architect (12/2019 – 12/2020)<br>
-    • Assessed information security risks comprehensively and presented metrics showing strengths and areas to improve the security program.<br>
-    • Developed information security policies, standards, and implemented technical controls.<br>
-    • Lead a group of five security engineers, ensuring different technology functions follow security policies and standards.<br>
-    • Manage vendor and supplier commercial relationships, continuously exploring and implementing cost-effective measures to optimize security investment.</p>
-</section>
-
+    <div class="container">
+        <div class="header">
+            <h1>Dexter Smith</h1>
+            <p>Montclair, NJ</p>
+        </div>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:dexter-smith@outlook.com">dexter-smith@outlook.com</a></p>
+            <p>Phone: 646-937-0650</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/dexter-dex-smith-4418b2172/">linkedin.com/in/dexter-dex-smith-4418b2172</a></p>
+        </div>
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Master of Science:</strong> Cybersecurity and Digital Forensics, John Jay College for Criminal Justice, NY</li>
+                <li><strong>Bachelor of Science:</strong> Computer Science and Information Security, John Jay College for Criminal Justice, NY</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Career Highlights</h2>
+            <ul>
+                <li><strong>Secure Cloud Transition Leadership:</strong> Directed migration of critical assets to cloud platforms with advanced security controls.</li>
+                <li><strong>AI Security Innovations:</strong> Led governance frameworks for AI risk management; mitigated risks such as AI hallucination and model poisoning.</li>
+                <li><strong>Infrastructure and Network Hardening:</strong> Designed and automated security testing for modernized infrastructure.</li>
+                <li><strong>Application Security & DevSecOps:</strong> Championed DevSecOps, increasing collaboration by 25%.</li>
+                <li><strong>Penetration Testing Leadership:</strong> Directed penetration testing teams and provided actionable remediation strategies.</li>
+                <li><strong>Security Framework Implementation:</strong> Embedded standards like OWASP SAMM and CIS Controls into organizational processes.</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Technical Skillset</h2>
+            <ul>
+                <li><strong>Languages:</strong> Python, C++, JavaScript, PowerShell, Rust</li>
+                <li><strong>Security Frameworks:</strong> NIST, PCI DSS, CIS Critical Security Controls</li>
+                <li><strong>Cloud Platforms:</strong> Azure, AWS, Google Cloud</li>
+                <li><strong>Environment:</strong> Containers (Kubernetes), Serverless Compute (AWS Lambda)</li>
+                <li><strong>Operating Systems:</strong> Windows, Linux, Mac OS X</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Professional Experience</h2>
+            <h3>Nomura Securities - Vice President, Global Software Security Engineering (03/2023 – Present)</h3>
+            <ul>
+                <li>Principal security advisor for high-risk applications, reviewing architecture and infrastructure.</li>
+                <li>Integrated security practices into SDLC, reducing code vulnerabilities by 20% in the first year.</li>
+            </ul>
+            <h3>Mitsubishi UFJ Financial Group - Vice President, Offensive Security Programs (12/2021 – 03/2023)</h3>
+            <ul>
+                <li>Global VP for offensive security programs, including Penetration Testing and Red Team activities.</li>
+                <li>Reviewed vendor findings and validated against ecosystem security requirements.</li>
+            </ul>
+            <!-- Add similar structure for other experiences -->
+        </div>
+        <div class="footer">
+            <p>© 2024 Dexter Smith | Designed with modern simplicity.</p>
+        </div>
+    </div>
 </body>
 </html>
